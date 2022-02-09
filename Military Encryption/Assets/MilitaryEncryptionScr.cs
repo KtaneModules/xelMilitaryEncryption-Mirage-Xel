@@ -33,17 +33,17 @@ public class MilitaryEncryptionScr : ModuleScript {
     };
     private List<List<string>> _keysquares = new List<List<string>>(){
         new List<string>(){"DTHFR","AGVNC","LUXQI","ESBKW","PYOMZ"},
-        new List<string>(){"VMRBX","QOPLD","NSCGH","FEIWZ","TAYUK"},
+        new List<string>(){"VMRBX","QOPLD","NCSGH","FEIWZ","TAYUK"},
         new List<string>(){"STHGR","IYWND","CVZUO","EFMLX","KAPQB"},
         new List<string>(){"BOGEF","HPYTZ","WVXNI","DCRAL","QSKUM"},
         new List<string>(){"UDEIL","CKVZQ","XGYPO","NTMWR","HABFS"},
         new List<string>(){"ZDSHI","YQUBP","LTCEW","ARKGO","VNMXF"},
         new List<string>(){"XZWNY","OFICQ","GEKTH","BSPAU","VDLMR"},
         new List<string>(){"DXVGZ","ORUYS","CKQIE","ATWHF","MNPBL"},
-        new List<string>(){"VYQSA","BZWDE","CNKOP","FMGIX","RUHTL"},
+        new List<string>(){"VYQSA","BZWDE","CKNOP","FMGIX","RUHTL"},
         new List<string>(){"AVZKS","PYUHD","GWOCQ","MNITB","EXFLR"},
         new List<string>(){"OIRAN","ZTSGX","PMVKU","CYWEL","BHFQD"},
-        new List<string>(){"RSLMH","EFBWZ","OTIPV","ADKUG","CQXYN"},       
+        new List<string>(){"RSLMH","EFBWZ","OTPIV","ADKUG","CQXYN"},       
         };
     private List<int> _transpositionKey = new List<int>();
 

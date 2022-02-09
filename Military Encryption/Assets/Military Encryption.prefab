@@ -2363,9 +2363,9 @@ MonoBehaviour:
   m_Script: {fileID: -119419473, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ModuleType: xelMilitaryEncrypton
-  ModuleDisplayName: Mililtary Encryption
-  RequiresTimerVisibility: 1
+  ModuleType: xelMilitaryEncryption
+  ModuleDisplayName: Military Encryption
+  RequiresTimerVisibility: 0
 --- !u!114 &114637300257901518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2534,7 +2534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3389497ee44351428b45787a4c51aec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TwitchHelpMessage: 
+  TwitchHelpMessage: '!{0} activate (activates module) / clear (clears input) / <string
+    of valid ciphertext letters> (enters string) '
   TwitchManualCode: 
   TwitchAbandonModule: []
 --- !u!114 &114868474547192396

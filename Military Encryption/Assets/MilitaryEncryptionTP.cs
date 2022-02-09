@@ -22,7 +22,7 @@ public class MilitaryEncryptionTP : TPScript<MilitaryEncryptionScr> {
     public override IEnumerator Process(string command)
     {
         command = command.ToLowerInvariant().Trim();
-        if (!Module._active && command == "activate")
+        if (command == (Module._active ? "clear" : "activate" ))
         {
             yield return null;
             Module.Buttons[5].OnInteract();
